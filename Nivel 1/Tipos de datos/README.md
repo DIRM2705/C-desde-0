@@ -1,0 +1,1 @@
+<h1> Tipos de datos en C </h1>
