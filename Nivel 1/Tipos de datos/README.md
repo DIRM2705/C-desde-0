@@ -109,8 +109,9 @@ Existen **palabras clave** que al ponerlas antes de un tipo, modificarás su tam
 <hr>
 
 <h3> Ejercicio </h3>
+
 Veamos si entendiste los tipos de datos.
-Encuentra el tipo que mejor funciona para cada uno de los siguientes datos, podrás ver la respuesta (aquí)[]:
+Encuentra el tipo que mejor funciona para cada uno de los siguientes datos, podrás ver la respuesta [aquí](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Tipos%20de%20datos/ejercicios.c).
 
 - -15
 - Y
