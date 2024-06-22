@@ -1,9 +1,5 @@
 <h1> Tipos de datos en C </h1>
 
-Antes de empezar a programar, tenemos que entender lo que estamos por hacer.
-
-<hr>
-
 <h3> Introducción </h3>
 
 La programación es la manera en que **manípulamos los datos** de una computadora.
