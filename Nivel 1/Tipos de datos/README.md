@@ -102,7 +102,7 @@ Existen **palabras clave** que al ponerlas antes de un tipo, modificarás su tam
 
 | **Modificador** |                                    **Cambio**                                    | **Aplica para los tipos** |
 |:---------------:|:--------------------------------------------------------------------------------:|---------------------------|
-| unsigned        | Evita guardar números negativos                                                  | char, int, float y double |
+| unsigned        | Evita guardar números negativos                                                  | char e int |
 | short           | Cambia el tamaño de la variable a 2 bytes                                        | int                       |
 | long            | Cambia el tamaño de la variable a 4 bytes si es tipo int o 16 bytes si es double | int, double               |
  
