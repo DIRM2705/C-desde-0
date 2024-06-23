@@ -10,15 +10,30 @@
     Encontrarás 5 niveles con lecturas, ejemplos y proyectos que te permitirán aprender todo sobre los fundamentos del lenguaje C.
 </p>
 
+El código fuente de todos los ejemplos, ejercicios y proyectos se encuentran en este repositorio. Siéntete libre de copiarlo y ejecutarlo en tu compilador favorito.
+
+Aquí hay una opción para que lo ejecutes en línea.
+
+<div align="center">
+    <a href = "https://www.onlinegdb.com/"> GDB Online </a> 
+</div>
+
 <h4 align="center"> ¡¿ESTÁS LIST@?! </h4>
 
 <hr>
 
 <h3> Nivel 1: Datos, entradas y salidas</h3>
 <p>
-En este nivel aprenderás a manejar lo más básico de todo programa. Conocerás las variables, la biblioteca stdio y los tipos de datos 
+En este nivel aprenderás a manejar lo más básico de todo programa. Conocerás las variables, la librería stdio y las operaciones básicas de programación.
 </p>
 
-<p align="center"> lecciones muy pronto :) </p>
+<h4> Lecciones: </h4>
 
-<h3 align="center"> ¡¡Más niveles muy pronto!!</h3>
+- [Estructura de un archivo .c](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Archivo%20.c/README.md)
+- [Variables](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Variables/README.md)
+- [Salida](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Salida/README.md)
+- Operadores
+- Entrada
+- Proyecto de nivel
+
+<h3 align="center"> ¡¡Más lecciones muy pronto!! &#128512;</h3>
