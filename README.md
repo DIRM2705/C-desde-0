@@ -34,6 +34,7 @@ En este nivel aprenderás a manejar lo más básico de todo programa. Conocerás
 - [Salida](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Salida/README.md)
 - Operadores
 - Entrada
+- Comentarios
 - Proyecto de nivel
 
 <h3 align="center"> ¡¡Más lecciones muy pronto!! &#128512;</h3>
