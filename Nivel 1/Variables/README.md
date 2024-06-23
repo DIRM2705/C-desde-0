@@ -1,13 +1,12 @@
-<h1> Tipos de datos en C </h1>
+<h1> Variables </h1>
 
 <h3> Introducción </h3>
 
-La programación es la manera en que **manípulamos los datos** de una computadora.
-Nuestros datos, pueden ser números, letras o incluso datos binarios. Cada uno con tendrá sus características distintas que debemos comprender si queremos aprovecharlos al máximo.
+Una variable es como una cajita etiquetada en la que guardamos **datos**. Gracias a ellas podemos manipular entradas, salidas, operaciones, etc. A continuación, aprenderemos sobre las variables en el lenguaje C.
 
 <hr>
 
-<h3> ¿Cuáles son estas diferencias? </h3>
+<h3> Tipos de datos </h3>
 
 En el lenguaje C, denominamos 5 tipos de datos básicos. A estos tipos de datos los denominamos **PRIMITIVOS**.
 
@@ -33,6 +32,21 @@ Vamos por pasos. Veamos la siguiente tabla primero:
 
 
 <hr>
+
+<h3> Declaración de variables </h3>
+
+La sintáxis para declarar una variable es la siguiente:
+
+`tipo` `identificador;` 
+alternativamente, podemos declarar una variable con valor inicial así:
+
+`tipo` `identificador` `=` `valor inicial;`
+
+`tipo:` Hace referencia a un tipo de dato, puede ser de los anteriores (excepto void) o algunos más complejos que veremos más adelante en el curso.
+
+`identificador:` Es el nombre que le damos a la variable, puede ser el que nosotros queramos siempre y cuando se componga **únicamente** por **letras del alfabeto inglés**, **números** y **guiones bajos**. Con él, nos refereriremos a la variable a lo largo del programa cuando necesitemos leer datos de ella o escribirlos.
+
+A continuación, veamos como se declaran variables de distintos tipos de datos:
 
 <h4> Enteros </h4>
 
@@ -61,6 +75,8 @@ char num = '5'; //Guardamos un número
 char letra = 'x'; //Guardamos una letra
 char ascii = '?'; //Guardamos un caracter ASCII
 ```
+
+**Nota:** Observa como los caracteres se escriben entre comillas simples `''`
 
 <h4> Decimales </h4>
 
@@ -104,10 +120,42 @@ Existen **palabras clave** que al ponerlas antes de un tipo, modificarás su tam
  
 <hr>
 
+<h3> Consejos al escribir variables </h3>
+
+- Haz identificadores útiles que contesten la pregunta **¿Qué guarda?**.
+
+- Evita usar claves o abreviaturas en los nombres. Eso dificulta la lectura.
+
+Robert C. Martin en su libro "Clean Code", menciona que un programa debe poder leerse como una historia, sin esfuerzo.
+
+Por ejemplo, si vas a hacer una aplicación que mide la temperatura
+
+:x: **No recomendado**
+
+```C
+float t;
+```
+En el código anterior, el identificador no nos dice mucho acerca de que guarda la variable, bien podría ser tiempo o una letra.
+
+Esto hace nuestro programa difícil de leer y nos confundirémos fácilmente.
+
+:white_check_mark: **Ideal**
+```C
+float temperatura;
+```
+Con esta variable, podemos facilmente saber que estamos guardando la temperatura en esta variable. No hay abreviaturas ni códigos extraños que explicar a las personas que se vayan agregando al proyecto en un futuro. Además al llamar la variable, podremos leer las instrucciones como si de un libro se tratase como en el siguiente ejemplo:
+
+```C
+if(temperatura >= 30) 
+{
+    printf("Hace calor");
+}
+```
+<hr>
+
 <h3> Ejercicio </h3>
 
-Veamos si entendiste los tipos de datos.
-Encuentra el tipo que mejor funciona para cada uno de los siguientes datos, podrás ver la respuesta [aquí](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Tipos%20de%20datos/ejercicios.c).
+Declara variables para guardar los siguientes datos, usa el tipo de datos que mejor funciona y sus modificadores. Podrás ver la respuesta [aquí](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Tipos%20de%20datos/ejercicios.c).
 
 - -15
 - Y
