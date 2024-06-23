@@ -149,7 +149,7 @@ if(temperatura >= 30)
 
 <h3> Ejercicio </h3>
 
-Declara variables para guardar los siguientes datos, usa el tipo de datos que mejor funciona y sus modificadores. Podrás ver la respuesta [aquí](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Tipos%20de%20datos/ejercicios.c).
+Declara variables para guardar los siguientes datos, usa el tipo de datos que mejor funciona y sus modificadores. Podrás ver la respuesta [aquí](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Variables/ejercicios.c).
 
 - -15
 - Y
