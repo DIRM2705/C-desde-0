@@ -57,4 +57,4 @@ void main()
 }
 ```
 
-[Siguiente lección>>]()
+[Siguiente lección>>](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Variables/README.md)
