@@ -44,7 +44,7 @@ La cadena puede contener **códigos de formato** estos son combinaciones de cara
 
 Estos datos no son parámetros obligatorios. Es decir, podemos usar la función `printf();` sin utilizar ningún dato a imprimir. Asimismo, podemos usart todos los datos que necesitamos recordando ponerlos en **orden**
 
-[Ejemplos:](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Salida/ejemplos.c)
+[Ejemplos:](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Salida/ejemplos.c)
 ```C
 //Imprimir sin datos
 printf("Hello world!");
@@ -71,7 +71,7 @@ Notemos tres cosas en los ejemplos.
 2. Los argumentos van en **orden** además, deben coincidir con el tipo de dato al que corresponde el **código de formato**
 3. Se coloca un ";" al final de la línea. Esto **SIEMPRE** debe hacerse con prácticamente todas las lineas del código sin importar que función o funciones incluyan, lo verémos a lo largo del curso.
 
-Por lo tanto, los siguientes son [errores:](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Salida/errores.c)
+Por lo tanto, los siguientes son [errores:](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Salida/errores.c)
 ```C
 //Faltan comillas
 printf(Hola mundo);
@@ -95,4 +95,4 @@ Crea tres instrucciones para imprimir en pantalla:
 
 La primera deberá decir "Programando en C", la segunda contendrá una suma (deberás usar códigos de formato para el resultado) y la última una lista de tres letras que conformen tu nombre (usa códigos de formato).
 
-Puedes una posible solución [aquí](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Salida/ejercicios.c).
+Puedes una posible solución [aquí](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Salida/ejercicios.c).

@@ -46,7 +46,7 @@ Aprenderemos más acerca de funciones posteriormente en el curso.
 
 <h3> Plantilla de archivo .c principal </h3>
 
-Con la siguiente [plantilla](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Archivo%20.c/main.c) podremos empezar a programar en C de inmediato. Te recomiendo descargarla :smile:
+Con la siguiente [plantilla](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Archivo%20.c/main.c) podremos empezar a programar en C de inmediato. Te recomiendo descargarla :smile:
 
 ```C
 #include <stdio.h>
@@ -57,4 +57,4 @@ void main()
 }
 ```
 
-[Siguiente lección>>](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Variables/README.md)
+[Siguiente lección>>](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Variables/README.md)

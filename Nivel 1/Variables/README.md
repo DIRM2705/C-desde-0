@@ -46,7 +46,7 @@ alternativamente, podemos declarar una variable con valor inicial así:
 
 `identificador:` Es el nombre que le damos a la variable, puede ser el que nosotros queramos siempre y cuando se componga **únicamente** por **letras del alfabeto inglés**, **números** y **guiones bajos**. Con él, nos refereriremos a la variable a lo largo del programa cuando necesitemos leer datos de ella o escribirlos.
 
-A continuación, veamos algunos [ejemplos](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Variables/ejemplos.c) como se declaran variables de distintos tipos de datos:
+A continuación, veamos algunos [ejemplos](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Variables/ejemplos.c) como se declaran variables de distintos tipos de datos:
 
 <h4> Enteros </h4>
 
@@ -122,7 +122,7 @@ Existen **palabras clave** que al ponerlas antes de un tipo, modificarás su tam
 
 Robert C. Martin en su libro "Clean Code", menciona que un programa debe poder leerse como una historia, sin esfuerzo.
 
-Por [ejemplo](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Variables/temperatura.c), si vas a hacer una aplicación que mide la temperatura
+Por [ejemplo](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Variables/temperatura.c), si vas a hacer una aplicación que mide la temperatura
 
 :x: **No recomendado**
 
@@ -149,7 +149,7 @@ if(temperatura >= 30)
 
 <h3> Ejercicio </h3>
 
-Declara variables para guardar los siguientes datos, usa el tipo de datos que mejor funciona y sus modificadores. Podrás ver la respuesta [aquí](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Variables/ejercicios.c).
+Declara variables para guardar los siguientes datos, usa el tipo de datos que mejor funciona y sus modificadores. Podrás ver la respuesta [aquí](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Variables/ejercicios.c).
 
 - -15
 - Y
@@ -160,4 +160,4 @@ Declara variables para guardar los siguientes datos, usa el tipo de datos que me
 - 5.32456872681
 
 
-[Siguiente lección>>](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Salida/README.md)
+[Siguiente lección>>](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Salida/README.md)
