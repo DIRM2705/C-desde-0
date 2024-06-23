@@ -46,7 +46,7 @@ alternativamente, podemos declarar una variable con valor inicial así:
 
 `identificador:` Es el nombre que le damos a la variable, puede ser el que nosotros queramos siempre y cuando se componga **únicamente** por **letras del alfabeto inglés**, **números** y **guiones bajos**. Con él, nos refereriremos a la variable a lo largo del programa cuando necesitemos leer datos de ella o escribirlos.
 
-A continuación, veamos como se declaran variables de distintos tipos de datos:
+A continuación, veamos algunos [ejemplos](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Variables/ejemplos.c) como se declaran variables de distintos tipos de datos:
 
 <h4> Enteros </h4>
 
@@ -100,12 +100,6 @@ float num = 2.5; //Guardamos un flotante, menos precisión
 double num2 = 1.3679; //Guardamos un doble, mayor precisión
 ```
 
-<h4> Vacío </h4>
-
-Este tipo de dato le indica a la computadora que no tienes **nada**. ¿Extraño no?
-
-Solo se usa este tipo de dato en condiciones muy específicas que conoceremos más adelante.
-
 <hr>
 
 <h3> Modificadores de tipo </h3>
@@ -128,7 +122,7 @@ Existen **palabras clave** que al ponerlas antes de un tipo, modificarás su tam
 
 Robert C. Martin en su libro "Clean Code", menciona que un programa debe poder leerse como una historia, sin esfuerzo.
 
-Por ejemplo, si vas a hacer una aplicación que mide la temperatura
+Por [ejemplo](https://github.com/DIRM2705/C-desde-0/blob/N1/Nivel%201/Variables/temperatura.c), si vas a hacer una aplicación que mide la temperatura
 
 :x: **No recomendado**
 
