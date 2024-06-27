@@ -185,7 +185,7 @@ Después de todos los operadores anteriores y por ende al final de la jererquía
 
 <h3> Ejercicios </h3>
 
-Obtén el resultado de las siguientes expresiones, puedes ver la respuesta [aquí]()
+Obtén el resultado de las siguientes expresiones, puedes ver la respuesta [aquí](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Operadores/ejercicio.c)
 
 - 6*2/( 2+1 * 2/3 +6) +8 * (8/4)
 - (17/2)-2/3+6%2 == 0
