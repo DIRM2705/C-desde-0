@@ -2,9 +2,9 @@
 
 void main()
 {
-    printf("Programando en C");
+    printf("Programando en C\n");
 
-    printf("2 + 2 = %d", 4);
+    printf("2 + 2 = %d\n", 4);
 
-    printf("Las primeras letras del abecedario son %c, %c y %c", 'a', 'b', 'c');
+    printf("Las primeras letras del abecedario son %c, %c y %c\n", 'a', 'b', 'c');
 }

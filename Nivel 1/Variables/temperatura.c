@@ -8,10 +8,10 @@ void main()
 
     if(temperatura >= 30)
     {
-        printf("Hace calor");
+        printf("Hace calor\n");
     }
     else
     {
-        printf("Hace buen clima");
+        printf("Hace buen clima\n");
     }
 }
