@@ -20,7 +20,7 @@ Son operadores que nos permiten hacer operaciones matemáticas.
 |      ++      | Incremento      | Incrementa en uno la variable                                            | `contador++;`            |
 |      --      | Decremento      | Decrementa en uno la variable                                            | `acumulador--;`          |
 
-[Ver código de ejemplo]()
+[Ver código de ejemplo](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Operadores/aritmeticos.c)
 
 <hr>
 
@@ -36,7 +36,7 @@ Con estos operadores, establecemos relaciones entre dos números.
 |      >       | Mayor que         | Revisa si el primer número es mayor que el segundo         | `short int mayor = 6 > 1;`       |
 |      <        | Menor que         | Revisa si el primer número es menor que el segundo         | `short int menor = 1 < 2;`      |
 
-[Ver código de ejemplo]()
+[Ver código de ejemplo](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Operadores/comparacion.c)
 
 <hr>
 
@@ -109,7 +109,7 @@ Veamos como quedarían nuestros valores:
 ```
 
 
-[Ver código de ejemplo]()
+[Ver código de ejemplo](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Operadores/bits.c)
 
 <hr>
 
@@ -130,13 +130,13 @@ Es con estos operadores que podemos asignar valores a las variables o modificar 
 | \|=          | `variable = variable \| 2;`          |
 | ^=           | `variable = variable ^ 2;`         |
 
-[Ver código de ejemplo]()
+[Ver código de ejemplo](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Operadores/asignacion.c)
 
 <hr>
 
 <h3> Jerarquía de operadores </h3>
 
-La jerarquía de operadores determina como se agrupan los términos cuando evaluamos una expresión. En general, se leerá una expresión de izquierda a derecha buscando los operadores más altos en la tabla. Por ejemplo, en la siguiente operación
+La jerarquía de operadores determina como se agrupan los términos cuando evaluamos una expresión. En general, se leerá una expresión de izquierda a derecha buscando los operadores más altos en la tabla. Por [ejemplo](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Operadores/jerarquia.c), en la siguiente operación
 
 ```C
 float valor = (25+6)*5+6 > 16-2/4 & 1; 
