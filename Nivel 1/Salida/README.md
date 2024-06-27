@@ -98,4 +98,4 @@ La primera deberá decir "Programando en C", la segunda contendrá una suma (deb
 
 Puedes una posible solución [aquí](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Salida/ejercicios.c).
 
-[Siguiente lección](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Operadores/README.md)
+[Siguiente lección >>](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Operadores/README.md)
