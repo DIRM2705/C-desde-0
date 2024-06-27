@@ -50,7 +50,7 @@ Estos operadores nos permiten comparar si dos valores son nulos (es decir equiva
 |     \|\|     | El operador de disyunción (OR) te devuelve un 1 si alguno de los operandos es distinto de 0 | `short int un_cero = 6 \|\| 0;` |
 |       !      | El operador de negación (NOT) te devuelve un 1 si el operador es 0                          | `short int opuesto = !a;`       |
 
-[Ver código de ejemplo]()
+[Ver código de ejemplo](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Operadores/logicos.c)
 
 <hr>
 
