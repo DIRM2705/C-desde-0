@@ -68,9 +68,9 @@ Tomando el valor en números binarios, estos operadores trabajan bit a bit reali
 |     &   | Disyunción, copia los bits solo si ambos son 1                                                                                                | `short int and = a & b;`   |
 |      \|      | Conjunción, copia los bits si alguno es 1                                                                                                     | `short int or = a \| b;`               |
 |       ^      | XOR, copia los bits si uno y solamente uno es 1                                                                                               | `short int xor = a ^ b;`               |
-|       ~      | Negación, copia los bits con su valor opuesto                                                                                                 | `short int not = ~a;`                  |
+|       ~      | Negación, copia los bits con su valor opuesto además cambia el signo del número                                                                                                 | `short int not = ~a;`                  |
 |       <<       | Desplazamiento a la izquierda, mueve hacia la izquierda los bits del operando izquierdo, el número de veces indicados por el operando derecho | `short int leftShift = b << 2;` |
-|       >>      | Desplazamiento a la derecha, mueve hacia la derecha los bits del operando derecho, el número de veces indicados por el operando izquierdo.    | `short int rightShift = 3 >> a;`       |
+|       >>      | Desplazamiento a la derecha, mueve hacia la derecha los bits del operando izquierdo, el número de veces indicados por el operando izquierdo.    | `short int rightShift = 3 >> a;`       |
 
 Veamos como quedarían nuestros valores:
 ```C
@@ -86,26 +86,26 @@ Veamos como quedarían nuestros valores:
     // ------
     //   111
 
-    short int xor = a ^ b: //Resultado: 6
+    short int xor = a ^ b; //Resultado: 6
     //   101
     // ^ 011
     // -------
     //   110
 
-    short int not = ~a: //Resultado: 2
+    short int not = ~a; //Resultado: 2
     //  ~101
     // -------
     //   010
 
-    short int left_shift = b << 2: //Resultado: 5
+    short int left_shift = b << 2; //Resultado: 12
     //   011 << 2
     // -------
-    //   101
+    //   1100
 
-    short int right_shift = 1 >> a: //Resultado: 6
-    //   1 >> 101
+    short int right_shift = a >> 1; //Resultado: 2
+    //   101 >> 1
     // -------
-    //   110    
+    //   010    
 ```
 
 
@@ -119,16 +119,16 @@ Es con estos operadores que podemos asignar valores a las variables o modificar 
 | **Operador** | **Equivalente a:**           |
 |:------------:|:----------------------------:|
 | =            | `int variable = 2;`          |
-| +=           | `int inc = inc + 2;`         |
-| -=           | `int dec = dec - 2;`         |
-| *=           | `int mult = mult * 2;`       |
-| /=           | `int div = div / 2;`         |
-| %=           | `int mod = mod % 2;`         |
-| <<=          | `int l_shift = l_shift << 2` |
-| >>=          | `int r_shift = r_shift >> 2` |
-| &=           | `int and = and & 2;`         |
-| \|=          | `int or = or \| 2;`          |
-| ^=           | `int xor = xor ^ 2;`         |
+| +=           | `variable = variable + 2;`         |
+| -=           | `variable = variable - 2;`         |
+| *=           | `variable = variable * 2;`       |
+| /=           | `variable = variable / 2;`         |
+| %=           | `variable = variable % 2;`         |
+| <<=          | `variable = variable << 2` |
+| >>=          | `variable = variable >> 2` |
+| &=           | `variable = variable & 2;`         |
+| \|=          | `variable = variable \| 2;`          |
+| ^=           | `variable = variable ^ 2;`         |
 
 [Ver código de ejemplo]()
 
@@ -136,12 +136,12 @@ Es con estos operadores que podemos asignar valores a las variables o modificar 
 
 <h3> Jerarquía de operadores </h3>
 
-La jerarquía de operadores determina como se agrupan los términos cuando evaluamos una expresión. En general, se leerá una expresión de izquierda a derecha buscando los operadores más altos en la tabla. Por ejemplo, en la siguiente operación:
+La jerarquía de operadores determina como se agrupan los términos cuando evaluamos una expresión. En general, se leerá una expresión de izquierda a derecha buscando los operadores más altos en la tabla. Por ejemplo, en la siguiente operación
 
 ```C
 float valor = (25+6)*5+6 > 16-2/4 & 1; 
 ```
-Primero se ejecutarían los paréntesis, luego multiplicaciones y divisiones, a continuación sumas y restas seguidos por la compración y el operador binario. Entonces en realidad estaríamos realizando las siguientes operaciones:
+primero se ejecutarían los paréntesis, luego multiplicaciones y divisiones, a continuación sumas y restas seguidos por la compración y el operador binario. Entonces en realidad estaríamos realizando las siguientes operaciones:
 
 ```C
 /*
@@ -179,7 +179,7 @@ La siguiente es la tabla de jerarquía para el lenguaje C. Entre más alto está
 | \|\|            |
 
 
-Después de todos los operadores anteriores y por ende al final de la jererquía se encuentran los [operadores de asignación](). Con la particulraridad de que estos operadores se evaluan de derecha a izquierda.
+Después de todos los operadores anteriores y por ende al final de la jererquía se encuentran los [operadores de asignación](https://github.com/DIRM2705/C-desde-0/blob/main/Nivel%201/Operadores/README.md#-operadores-de-asignaci%C3%B3n-). Con la particulraridad de que estos operadores se evaluan de derecha a izquierda.
 
 <hr>
 
@@ -192,4 +192,4 @@ Obtén el resultado de las siguientes expresiones, puedes ver la respuesta [aqu�
 - !(5 > 10) && ( 2 == 2 )
 - 8 | 3+5%3 & 7 >= 1
 
-[Siguiente lección >>]()
+Siguiente lección >>
